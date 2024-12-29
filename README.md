@@ -23,7 +23,7 @@ The repository is organized into the following directories and files:
 
 Images: Contains important project images, such as block diagrams, classification reports, confusion matrices, and screenshots.
 dataset: Includes the dataset, consisting of train and test data from Kaggle, which is used to train and test the model.
-static: Houses static assets for the web application, including CSS, JavaScript, etc.
+
 templates: Includes HTML templates for the web application, such as Landingpage.html and prediction page.html.
 Fake_News_Detector-PA.ipynb: Jupyter Notebook file for data analysis and model training.
 app.py: Flask web application for real-time fake news detection.
@@ -50,6 +50,5 @@ Model Description
 The Passive Aggressive Classifier (PAC) is a type of online learning algorithm for binary classification tasks. It is well-suited for applications like fake news detection. The PAC algorithm updates its model continuously as new data arrives, making it efficient for real-time classification.
 
 Model Accuracy
-The Passive Aggressive Classifier achieved an impressive accuracy of 96% during evaluation. This high accuracy indicates its effectiveness in classifying news articles as reliable or unreliable.
 
-The model is pre-trained and available as model.pkl in this repository, allowing you to use it for making predictions.
+
